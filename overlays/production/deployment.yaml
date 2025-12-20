@@ -4,3 +4,16 @@ metadata:
   name: course-app
 spec:
   replicas: 3
+  template:
+    spec:
+      containers:
+        - name: course-app-cont  
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+
+
