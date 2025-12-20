@@ -5,7 +5,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m              
-  path: ./overlays/development 
+  path: ./overlays/development
+  prune: true
   sourceRef:
     kind: GitRepository
     name: flux-system       
