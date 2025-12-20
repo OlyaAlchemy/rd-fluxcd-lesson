@@ -6,6 +6,7 @@ namespace: development
 resources:
   - ../../base
   - namespace-dev.yaml
+  - dragonfly.yaml
 
 patches:
   - path: deployment.yaml
