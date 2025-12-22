@@ -5,7 +5,7 @@ metadata:
   labels:
     app: dragonfly-course-app
 spec:
-  replicas: 2
+  replicas: 0
   image: docker.dragonflydb.io/dragonflydb/dragonfly:v1.35.1
 
   resources:
